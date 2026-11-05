@@ -1,0 +1,56 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Env / secrets
+.env
+.env.*
+*.env
+!.env.example
+
+# Local DB / state
+*.db
+*.sqlite
+*.sqlite3
+
+# Project local state
+edureflect.db
+
+# Streamlit (config.toml is committed; secrets never are)
+.streamlit/secrets.toml
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Local git backups created during cleanup
+.git_backup_*/
+
+# Raw corpora stay local; the built index (~5 MB) is committed so the app can be deployed from git
+data/*
+!data/index/
+
+# Ad-hoc local test/scratch files
+/test*.py
+/send_test_quiz.py
+/zzzzz.txt
+
+# Binary docs
+*.pdf
+
+
+.git-history-backup/
+.env
+.venv/
+edureflect.db
