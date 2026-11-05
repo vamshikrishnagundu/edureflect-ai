@@ -6,6 +6,7 @@ An AI-powered learning platform that combines hybrid information retrieval, docu
 
 Built to demonstrate end-to-end Data Engineering, Data Science, Machine Learning, and AI application development.
 
+[![Tests](https://github.com/vamshikrishnagundu/edureflect-ai/actions/workflows/tests.yml/badge.svg)](https://github.com/vamshikrishnagundu/edureflect-ai/actions/workflows/tests.yml)
 
 An AI-powered study assistant. EduReflect answers students' questions from a curated science and maths knowledge base using Retrieval-Augmented Generation (RAG), turns conversations into quizzes, tracks concept mastery, and answers questions about uploaded PDFs and DOCX files.
 
